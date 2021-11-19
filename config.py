@@ -23,7 +23,7 @@ config.set('content.javascript.enabled', True, 'qute://*/*')
 config.set('content.cookies.store', False)
 
 #Enable Darkmode
-config.set("colors.webpage.darkmode.enabled", False)
+config.set("colors.webpage.darkmode.enabled", True)
 
 c.tabs.show = 'switching'
 
