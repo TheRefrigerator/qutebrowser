@@ -19,6 +19,11 @@ config.set('content.javascript.enabled', True, 'chrome://*/*')
 config.set('content.javascript.enabled', True, 'qute://*/*')
 
 
+#Delete all cookies when closing qutebrowser
+config.set('content.cookies.store', False)
+
+#Enable Darkmode
+config.set("colors.webpage.darkmode.enabled", False)
 
 c.tabs.show = 'switching'
 
